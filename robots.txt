@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://talencote.github.io/onlymoney-support/sitemap.xml
