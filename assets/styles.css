@@ -98,3 +98,5 @@ h3 { margin: 0; font-size: 1.08rem; }
 .guide-fields { width: 100%; border-collapse: collapse; margin: 2rem 0; table-layout: fixed; }
 .guide-fields caption { text-align: left; font-weight: 750; margin-bottom: .75rem; }
 .guide-fields th, .guide-fields td { border-bottom: 1px solid var(--line); padding: .75rem .5rem; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+
+.migration-guide h1 { font-size: clamp(2rem, 6vw, 3.25rem); overflow-wrap: anywhere; }

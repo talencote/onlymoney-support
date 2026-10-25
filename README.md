@@ -34,3 +34,22 @@ update explains this input source and user control of the automation. Publish th
 guide, FAQ, privacy, and sitemap changes in the same release cycle. Local edits
 are not a deployment. After publication, verify every guide language route and
 the updated canonical policy over HTTPS.
+
+## AI-assisted migration
+
+`/support/import/` and en/ru/es/de equivalents describe user-mediated conversion
+with an external AI service. `assets/onlymoney-ai-import-guide.md` is the English
+provider-neutral specification; the source is `Support/onlymoney-ai-import-guide.md`
+in the app repository. Update it alongside backup-format changes and regenerate
+the app's synthetic compatibility fixture using `scripts/verify_import_guide.py`.
+The AI must analyze first and wait for approval before generating a backup.
+Keep replacement warnings, privacy disclosures, support links, and sitemap in sync.
+No financial upload endpoint or AI API integration exists on this site.
+Local edits are not publication; verify the guide download and every route after
+deployment. Do not promise compatibility with every export or a free AI plan.
+
+Guide revision 2 also accepts an optional current OnlyMoney backup. The AI keeps
+its history and appends the export with agreed account mappings and base currency.
+Duplicate investigation and exact balance reconciliation are not required;
+announced opening-balance defaults and approximate conversions are covered by
+one plan approval. Structural file validation remains mandatory.
